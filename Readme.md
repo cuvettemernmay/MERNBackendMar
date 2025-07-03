@@ -27,3 +27,11 @@ Runtime Environment - Node.js
 =====> 2. Thread Pool (handles heavy tasks)
 ( Operating System (OS) ) =======> Actual Low-level operations.
 
+
+<!-- Web Server: Web Application Architecture -->
+Web Server is a software that handles the HTTP requests and serves respones.
+
+<!-- http Module- creating servers and making HTTP requests. -->
+=> Client-Server Model.
+=> Request-Response Cycle.
+=> Common HTTP Methods - GET, POST, DELETE, PUT (CRUD)
