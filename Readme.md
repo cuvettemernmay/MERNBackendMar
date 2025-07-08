@@ -35,3 +35,22 @@ Web Server is a software that handles the HTTP requests and serves respones.
 => Client-Server Model.
 => Request-Response Cycle.
 => Common HTTP Methods - GET, POST, DELETE, PUT (CRUD)
+
+
+<!-- Frameworks (Node.js) -->
+
+<!-- What is Node.js Web Application Framework? -->
+
+<!-- APIs => Application Programming Interface -->
+<!-- 1. Routing (Endpoint) -->
+<!-- 2. Template Rendering (Sending HTML) -->
+<!-- 3. Middleware Processing -->
+<!-- 4. Error Handling -->
+<!-- 5. Database Integration -->
+
+<!-- Express.js Framework - building APIs -->
+<!-- 1. Robust Routing -->
+<!-- 2. Middleware Processing -->
+<!-- 3. HTTP Helpers - redirects, caching -->
+<!-- 4. View System Integration -->
+
