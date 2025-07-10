@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title= title
+    body
+        h1= message
+        p We deal with the best products for your home!
+
+        a(href="/products") View Products
+        br
+        a(href="/orders") View Orders
+
+        if user
+            p(class="user-welcome", id="assdfsdf") Welcome, #{user.name}
+
+        else 
+            p Please log in to continue
+
+        ul 
+          each item in ['Home', 'Products', 'Orders']
+            li
+                a(href=`/${item.toLowerCase()}`) #{item}

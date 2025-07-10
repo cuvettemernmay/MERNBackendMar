@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    h1 Dashboard
+    div.dashboard
+        h1 Dashboard
+        p This is the dashboard
+
+        div.stats
+            div.stat
+                span.label Users
+                span.value 100
+            div.stat
+                span.label Orders
+                span.value 1000
+        
+        div.recent-orders
+            h2 Recent Orders
+            ul
+                li
+                    span.order-id #123456
+                    span.order-date 2021-01-01
+                    span.order-total $100
+            table
+                thead
+                    tr
+                        th Order ID
+                        th Date
+                        th Total
+                        th Actions
