@@ -21,7 +21,8 @@ app.set("views", path.join(__dirname, "views"));
 // });
 
 app.get("/myWebsite", (req, res) => {
-  res.render("layout", {
+  // we need to render dashboard instead of layout (sol from stackOverflow)
+  res.render("dashboard", {
     title: "My Website",
     content: "This is the content of my website",
     footer: "This is the footer of my website"
@@ -32,6 +33,7 @@ app.get("/myWebsite", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
+  console.log(`http://localhost:3000/myWebsite`);
 });
 
 
