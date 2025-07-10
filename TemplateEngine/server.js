@@ -21,6 +21,7 @@ app.set("views", path.join(__dirname, "views"));
 // });
 
 app.get("/myWebsite", (req, res) => {
+  // we need to render dashboard instead of layout (sol from stackOverflow)
   res.render("dashboard", {
     title: "My Website",
     content: "This is the content of my website",
