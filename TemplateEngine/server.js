@@ -8,6 +8,8 @@ const port = 3000;
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 
+app.use(express.static(path.join(__dirname, "public")));
+
 
 // Define a route to render the index.pug file
 // app.get('/', (req, res) => {
@@ -21,7 +23,7 @@ app.set("views", path.join(__dirname, "views"));
 // });
 
 app.get("/myWebsite", (req, res) => {
-  res.render("layout", {
+  res.render("dashboard", {
     title: "My Website",
     content: "This is the content of my website",
     footer: "This is the footer of my website"
