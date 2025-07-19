@@ -54,3 +54,8 @@ Web Server is a software that handles the HTTP requests and serves respones.
 <!-- 3. HTTP Helpers - redirects, caching -->
 <!-- 4. View System Integration -->
 
+<!-- Authentication and Authorization -->
+<!-- Authentication: Verifying who a user is (e.g., login with username/password) -->
+<!-- Authorization: Determining what permissions/access an authenticated user has -->
+
+
